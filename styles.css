@@ -1,0 +1,33 @@
+body {
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+img {
+width: 200px;
+border-radius: 80px;
+}
+div{
+    background-color: azure;
+    margin-bottom: 20px;
+}
+
+
+
+.cube{
+    width: 110px;
+    height: 110px;
+}
+.circle{
+    width: 110px;
+    height: 110px;
+    border-radius: 90px;
+}
+.yellow{
+    background-color: gold;
+
+}
+#transfo{
+    transform: scale(1.5);
+    transform: rotate(45deg);
+}
