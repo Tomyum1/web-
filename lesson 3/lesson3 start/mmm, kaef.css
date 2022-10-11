@@ -1,0 +1,20 @@
+body {
+    background-color: antiquewhite;
+
+    }
+    .size-up{
+        font-size:15pt;
+    }
+
+    #red{
+        color: red;
+    }
+
+    .rotate {
+        transform: rotate(45deg);
+    }
+    .grey-cube{
+        width: 10px;
+        height: 10px;
+        background-color: grey;
+    }

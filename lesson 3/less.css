@@ -1,0 +1,23 @@
+.avatar{
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+}
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color: black;
+    border-width: 7px;
+    width: 10%;
+}
+.custom-ul{
+    list-style-type: "(●'◡'●)";
+}
+a{
+    color: grey;
+    text-decoration: none;
+}
+a:hover{
+    color: rebeccapurple;
+    text-decoration: underline;
+}
