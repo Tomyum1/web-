@@ -1,0 +1,45 @@
+/* .grey{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 0px auto;
+}
+.purple{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(46, 78, 178, 0.3); 
+
+} */
+.image {
+    width: 250px;
+    height: 250px;
+    background: url("ping.gif") no-repeat center / cover;
+    margin: 0px auto;
+
+}
+.prz{
+    width: 250px;
+    height: 250px;
+    margin: 0px auto;
+    background-color: black;
+    opacity: 0.8;
+}
+.rectangle {
+    height: 100px;
+    width: 250px;
+}
+.warning{
+    background-color: palevioletred;
+}
+.info{
+    background-color: blanchedalmond;
+}
+.rectangle h1{
+    text-align: center;
+}
+.symbol::before{
+    content: "😎";
+}
+.symbol::after{
+    content: "😏";
+} 
