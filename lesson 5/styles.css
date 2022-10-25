@@ -1,0 +1,93 @@
+body {
+    background-color:antiquewhite;
+}
+/* button{
+background-color: grey;
+width: 167px;
+height: 52px;
+border-radius: 50px;
+font-family:"Montserrat";
+color: black;
+border: 2px darkgreen solid;
+} */
+.figone {
+    position: absolute;
+width: 40px;
+height: 40px;
+left: 50px;
+top: 39px;
+
+background: #00FF19;
+
+}
+.fig2 {
+    position: absolute;
+    width: 77px;
+    height: 40px;
+    left: 100px;
+    top: 39px;
+    
+    background: #00FF19;
+}
+.fig3{
+    position: absolute;
+    width: 59px;
+    height: 16px;
+    left: 234px;
+    top: 217px;
+    
+    background: #FF6B00;
+}
+.fig4{
+    position: absolute;
+width: 573px;
+height: 70px;
+left: 415px;
+top: 215px;
+
+background: #6834FB;
+}
+.fig5{position: absolute;
+    width: 389px;
+    height: 33px;
+    left: 415px;
+    top: 301px;
+    
+    background: #6834FB;
+}
+.fig6{
+    position: absolute;
+width: 237px;
+height: 30px;
+left: 414px;
+top: 402px;
+
+background: #21CFDA;
+}
+.fig7 {
+    position: absolute;
+width: 237px;
+height: 30px;
+left: 717px;
+top: 402px;
+
+background: #21CFDA;
+}
+.fig8{
+    position: absolute;
+width: 92px;
+height: 30px;
+left: 1020px;
+top: 402px;
+
+background: #21CFDA;
+}
+.fig9{
+    position: absolute;
+width: 623px;
+height: 21px;
+left: 412px;
+top: 554px;
+
+background: #787878;
+}
