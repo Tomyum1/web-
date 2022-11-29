@@ -1,0 +1,28 @@
+/*  
+.gif{
+    background: linear-gradient(135deg,#ff0000, rgb(255, 255, 0));
+    width: 600px;
+    height: 300px;
+}
+
+.img{
+        width: 600px;
+        height: 300px;
+        background-size: cover;
+}
+*/
+
+
+.gif {
+    display: block;
+    width: 600px;
+    height: 300px;
+    background-image:url("https://lh6.googleusercontent.com/JZ9wlL_EMJwvUDwXf_h1OTopHGoOf2v8LldHOHrFqVtDDIKUwRTRuL2unLQTKTCCyyiNCvHB12qORGx-ep5EFqQsyjCBktR5Aa7ZMIrUM_WGaiKsB6EMd8XTprMUk8oW8Q=w640");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    border: double black 4px;
+    background:  linear-gradient 135deg(#ff000099, #ffff00,);
+    border-radius: 90px;
+    background-size: cover;
+}​
