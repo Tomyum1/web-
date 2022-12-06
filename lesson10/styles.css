@@ -12,3 +12,138 @@ body{
     letter-spacing: 2px;
     text-shadow: 0 0 10px #044132;
 }
+h1{
+    font-size: 75px;
+    margin-bottom: 35px;
+    animation: scale 2s ease infinite;
+
+}
+
+.rabbit{
+    border-radius: 50%;
+    border: 10px solid #ec7357;
+    margin-bottom: 35px;
+
+} 
+h2 {
+    font-size: 35px;
+    position: relative;
+    width: fit-content;
+    margin: auto;
+    background: #ec7357;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  padding: 15px 25px;
+}
+
+.present {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    cursor: pointer;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 40px;
+  }
+  
+  .present1{
+    background: url("img/present.png") center/cover no-repeat;
+  }
+
+  
+  .present1:hover {
+    background: url("img/wish1.gif") center/cover no-repeat;
+  }
+
+
+  .present2{
+    background: url("img/present.png") center/cover no-repeat;
+  }
+
+  .present2:hover {
+    background: url("https://media.tenor.com/wer_TRGa6kQAAAAC/gifts-spongebob.gif") center/cover no-repeat;
+  }
+
+  .present3{
+    background: url("img/present.png") center/cover no-repeat;
+  }
+
+  .present3:hover {
+    background: url("https://media.tenor.com/oCWR5TTuc50AAAAC/unwrap-presents.gif") center/cover no-repeat;
+  }
+
+h3{
+    font-size: 30px;
+    margin-top: 70px;
+
+}
+
+.wish:nth-child(odd)::after {
+    content: url(img/arrow.svg);
+    position: absolute;
+    right: 90px;
+    top: 1000px;
+    animation: rotationOdd 1s ease infinite;
+  }
+
+
+.wish:nth-child(even)::before {
+    content: url(img/arrow.svg);
+    position: absolute;
+    left: 90px;
+    top: 1700px;
+    animation: rotationEven 1s ease infinite;
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes scale {
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.3);
+    }
+    
+    100%{
+        transform: scale(1);
+    }
+    
+}
+
+
+
+@keyframes rotationOdd {
+    0% {
+      transform:   rotate(0);
+    }
+  
+    50% {
+      transform:  rotate(25deg);
+    }
+  
+    100% {
+      transform:  rotate(0);
+    }
+}
+    @keyframes rotationEven {
+        0% {
+          transform: scale(-1, 1) rotate(0);
+        }
+      
+        50% {
+          transform: scale(-1, 1) rotate(25deg);
+        }
+      
+        100% {
+          transform: scale(-1, 1) rotate(0);
+        }
+  }
